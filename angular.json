@@ -44,6 +44,7 @@
             "src/js/demo.js",
             "src/js/demo1.js",
             "src/js/three.min.js",
+            "src/js/js/three.min.js",
             "src/js/TweenMax.min.js"
           ],
             "server": "src/main.server.ts",
