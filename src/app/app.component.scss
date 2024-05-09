@@ -11,15 +11,15 @@ $darkergreen: #234334;
 body {
   background-color: $grey;
   color: $white;
-  margin: 0 ;
-  height: 600vh;
   font-family: 'Circular Std', sans-serif;
 }
+
+.container{
+  margin: auto;
+  width: 1000px;
+}
+
 #navbar {
-  margin-top: 10px;
-  margin-bottom: 10px;
- 
-  width: 1300px;
   position: fixed;
 }
 
@@ -27,8 +27,10 @@ body {
     border: none;
     height: 1px;
     background-color: $darkgrey;
-    margin: 20px 0;
-    width: 100vw;
+    margin: 15px 0;
+    width: 1000%;
+    margin-left: -500%;
+ 
 }
 
 #logo{
@@ -40,6 +42,7 @@ body {
   letter-spacing: 1px;
   margin-right: 60px;
   margin-left: 10vh;
+ 
  
 }
 
@@ -61,3 +64,5 @@ transform: translateY(22%);
     transition: color 0.2s;
   }
 }
+
+
